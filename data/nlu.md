@@ -1,0 +1,292 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hi friend
+- hi there it's me
+- good evening
+- good morning
+- good afternoon
+-- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- bye
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- byeeeeeeeeeeee
+- tlak to you later
+- ciao
+- Bye bye
+- then bye
+- tschüssikowski
+- bye!
+- good day
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- cool
+- go for it
+- yep
+- yep, will do thank you
+- I'm sure I will!
+- oh awesome!
+- Yes
+- accept
+- I accept
+- i accept
+- ok i accept
+- I changed my mind. I want to accept it
+- ok cool
+- alright
+- i will!
+- ok, I behave now
+- yop
+- oki doki
+- yes please
+- yes please!
+- jo
+- yep if i have to
+- amayzing
+- confirm
+- nice
+- coolio
+- definitely yes without a doubt
+- yas
+- yup
+- perfect
+- sure thing
+- absolutely
+- Oh, ok
+- Sure
+- hm, i'd like that
+- ja
+- sure!
+- yes i accept
+- Sweet
+- amazing!
+- how nice!
+- cool!
+- yay
+- yes accept please
+- great
+- oh cool
+- yes
+- fine
+- i will take that
+- that sounds just right
+
+## intent:location
+- i am in banglore
+- my location is delhi
+- i am living in mumbai
+- I need a new restaurant in Bengaluru
+- Bhopal 
+- help me find restaurant in Bngalore
+- Could you find me a restaurant to eat at bngalore
+- Bhubaneshwar
+- delhi
+- noida
+- chennai
+- banglore
+- Can you find me a restaurant in Bombay
+- I need to find a restaurant in Kolkata
+- Suggest me a good restaurant around New Delhi
+- Hey help me find a restaurant in Madras
+- Help me find a restaurant in Surat
+- Recommend me a restaurant around Pune
+- Could you find me a restaurant in Agra? 
+- Pick a restaurant for me, please in Kochi
+- find me a restaurant in Visakhapatnam?
+- Could you find me a restaurant to eat at Gurgaon
+
+## intent:asking_for_restaurant_nearby
+- Yes
+- Yes i want to order food
+- Yes i want food
+- hmmmm
+- can you please write my order
+- can you please take my order
+- i want food
+- yeah thats why i an here
+- maybe
+- yes why not
+- yes please take my order
+- yes of course
+- indeed
+- that sounds good
+- correct
+- yes i am hungary
+- yes i am humgary and lookung for a restaurant
+- yeah i will be happy if u can find a restaurant for me in my area
+
+
+## intent:denying_restaurant finding
+- NO
+- no i dont want food
+- i dont have any order
+- i dont want to give any order 
+- sorry no order as of now
+- no orders
+- no please
+- i am not here for food 
+- no i dont want to give any order
+- i already had my food
+- not now
+- maybe someother time
+- not now
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- i am not looking for restaurant
+- no restaurant
+- not now i was just trying what u do
+
+## intent:un_understandable
+- ahhhhh
+- ohhh
+- kya
+- hahahahah
+- shutup
+- who r u
+- mai ni bata ra
+- chal jhuti
+- ?????
+- ohh you can only find restaurant
+- can you find find pvr for me
+- can you tell me something else
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:cuisine
+- i would prefer to eat [mexican](cuisine)
+- i would love to eat [italian](cuisine)
+- i would like to have [chinese](cuisine) food
+- i would love to eat [mexican](cuisine) food
+- i would like to eat [chinese](cuisine)
+- please provide me [north indian](cuisine) food
+- please provide me [italian](cuisine) food
+- please give me [mexican](cuisine) food
+- please give me [italian](cuisine) food
+- please give me some [thai](cuisine) food
+- i will eat [north indian](cuisine) food
+- i would love to eat [south indian](cuisine) food
+- i will prefer [south indian](cuisine) food
+- i will prefer to have [north indian](cuisine)
+- i will eat [chinese](cuisine)
+- i would love to eat [arabian](cuisine) food
+- my choice will be [arabian](cuisine)
+- i would love to eat [mexican](cuisine)
+- i would like to have [italian](cuisine)
+- i would like to eat [italian](cuisine)
+- i would like to have [chinese](cuisine)
+- i will prefer [chinese](cuisine) food
+- i need [italian](cuisine) food
+- i would like to eat [italian](cuisine) food
+- i will prefer [italian](cuisine) food
+- i would love to eat [chinese](cuisine) food
+- i would love to eat [chinese](cuisine)
+- i would love to eat [north indian](cuisine) food
+- [italian](cuisine)
+- [chinese](cuisine)
+- [thai](cuisine)
+- i will prefer to eat [chinese](cuisine) food
+- i would love to eat [italian](cuisine) food
+- [african](cuisine)
+- [australian](cuisine)
+- i will prefer [australian](cuisine) then
+- i will prefer [australian](cuisine)
+- i want to eat [italian](cuisine) food
+- i would like to eat [Egyptian](cuisine)
+- please provide me [Egyptian](cuisine) food
+- my choice will be [Egyptian](cuisine)
+- i would like to eat [Greek](cuisine)
+- please provide me [Greek](cuisine) food
+- my choice will be [Greek](cuisine)
+- i would like to eat [Iranian](cuisine)
+- please provide me [Iranian](cuisine) food
+- my choice will be [Iranian](cuisine)
+- i would like to eat [Maharashtrian](cuisine)
+- please provide me [Maharashtrian](cuisine) food
+- my choice will be [Maharashtrian](cuisine)
+- i would like to eat [Rajasthani](cuisine)
+- please provide me [Rajasthani](cuisine) food
+- my choice will be [Rajasthani](cuisine)
+- i would like to eat [Seafood](cuisine)
+- please provide me [Seafood](cuisine) food
+- my choice will be [Seafood](cuisine)
+- i would like to eat [Street Food](cuisine)
+- please provide me [Street Food](cuisine)
+- my choice will be [Street Food](cuisine)
+- i would like to eat [Rolls](cuisine)
+- please provide me [Rolls](cuisine) food
+- my choice will be [Rolls](cuisine)
+- i would like to eat [Kebab](cuisine)
+- please provide me [Kashmiri](cuisine) food
+- my choice will be [Healthy Food](cuisine)
+- i would like to eat [Momos](cuisine)
+- please provide me [Fusion](cuisine) food
+- my choice will be [Kashmiri](cuisine)
+- i would like to eat [Wraps](cuisine)
+- please provide me [Wraps](cuisine)
+- my choice will be [Wraps](cuisine)
+- i would like to eat [Healthy Food](cuisine)
+- please provide me [Mongolian](cuisine) food
+- my choice will be [Fusion](cuisine)
+- i would like to eat [Odia](cuisine)
+- please provide me [Odia](cuisine) food
+- my choice will be [Momos](cuisine)
+- i would like to eat [Belgian](cuisine)
+- please provide me [Belgian](cuisine) food
+- i want two small [pizza](cuisine)
+- can you please bring two glasses of [Juices](cuisine) also.
+- Do you have [Tea](cuisine)
+- my choice will be [Juices](cuisine)
+- i would like to have [Juices](cuisine)
+- my choice will be [Tea](cuisine)
+- i would like to have [Tea](cuisine)
+
+## intent:booking_table
+- yes i want to book table.
+- yes i would like to book table
+- ohh you can book a table for us as well thats so kind of you.
+- please book table 
+- will be thankfull to you if you can do that for us
+- yes please book table for us
+- i was about to ask u if ucan book table for us
+- that would be great
+- sure go ahead.
+- yes i want to book a table for tomorrow
+

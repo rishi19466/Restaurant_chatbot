@@ -1,0 +1,58 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - location
+  - asking_for_restaurant_nearby
+  - denying_restaurant finding
+  - un_understandable
+  - bot_challenge
+  - cuisine
+  - booking_table
+  
+entities:
+  - cuisine
+  
+slots:
+  cuisine:
+    type: text
+  location:
+    type: text
+    
+actions:
+  - action_set_location
+  - action_show_restaurant
+  
+responses:
+  utter_greet:
+  - text: "Hey! glad to see you here.i acn help you finding restaurant nearby. Do you want me to find a restaurant nearby you?"
+
+  utter_cheer_up:
+  - text: "Ok. Thank you for visiting."
+  - text: "Do visit again. Bye"
+
+  utter_did_that_help:
+  - text: "Sorry i dont understand you."
+  - text: "Thanks for visiting us."
+  - text: "Bye."
+
+  utter_ask_location:
+  - text: "ohh great would be happy to help you with your search."
+  - text: "can you give me your location? ahhh city name?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_ask_for_cusine:
+  - text: "Please tell us the cuisine you want to have."
+  
+  utter_ask_booking_table:
+  - text: "Do you want me to book a table for you?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
